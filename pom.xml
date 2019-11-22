@@ -3,7 +3,7 @@
   <groupId>com.jdevs</groupId>
   <artifactId>madhu_bp_Demo</artifactId>
   <version>1.01-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://dockerserver:8081/repository/Test1_Release/</url>
+            <url>http://nagiosserver:8081/repository/Test1_Release/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://dockerserver:8081/repository/Test1_Snap/</url>
+            <url>http://nagiosserver:8081/repository/Test1_Snap/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
